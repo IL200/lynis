@@ -1,0 +1,248 @@
+test_id,categoria,descripcion,duracion_seg,puntaje,anomalia
+CORE-1000,CORE,Check all system binaries,2.0,-0.203,SI
+DEB-0001,DEB,Check for system binaries required by Debian Tests,52.0,-0.4462,SI
+DEB-0280,DEB,Checking if libpam-tmpdir is installed and enabled.,3.0,-0.2139,SI
+DEB-0810,DEB,Checking for apt-listbugs,0.0,0.0467,NO
+DEB-0811,DEB,Checking for apt-listchanges,0.0,0.0467,NO
+DEB-0831,DEB,Verifying that needrestart is installed.,0.0,0.0467,NO
+DEB-0880,DEB,Checking for fail2ban,0.0,0.0467,NO
+BOOT-5104,BOOT,Determine service manager,1.0,0.0,NO
+BOOT-5108,BOOT,Check Syslinux as bootloader,0.0,0.0467,NO
+BOOT-5109,BOOT,Check rEFInd as bootloader,0.0,0.0467,NO
+BOOT-5116,BOOT,Check if system is booted in UEFI mode,0.0,0.0467,NO
+BOOT-5121,BOOT,Check for GRUB boot loader presence,0.0,0.0467,NO
+BOOT-5122,BOOT,Check for GRUB boot password,1.0,0.0,NO
+BOOT-5139,BOOT,Check for LILO boot loader presence,0.0,0.0467,NO
+BOOT-5140,BOOT,Check for ELILO boot loader presence,0.0,0.0467,NO
+BOOT-5142,BOOT,Check SPARC Improved boot loader (SILO),0.0,0.0467,NO
+BOOT-5155,BOOT,Check for YABOOT boot loader configuration file,1.0,0.0,NO
+BOOT-5177,BOOT,Check for Linux boot and running services,2.0,-0.203,SI
+BOOT-5180,BOOT,Check for Linux boot services (Debian style),0.0,0.0467,NO
+BOOT-5184,BOOT,Check permissions for boot files/scripts,8.0,-0.323,SI
+BOOT-5202,BOOT,Check uptime of system,0.0,0.0467,NO
+BOOT-5260,BOOT,Check single user mode for systemd,0.0,0.0467,NO
+BOOT-5264,BOOT,Run systemd-analyze security,1.0,0.0,NO
+KRNL-5622,KRNL,Determine Linux default run level,0.0,0.0467,NO
+KRNL-5677,KRNL,Check CPU options and support,1.0,0.0,NO
+KRNL-5695,KRNL,Determine Linux kernel version and release number,0.0,0.0467,NO
+KRNL-5723,KRNL,Determining if Linux kernel is monolithic,0.0,0.0467,NO
+KRNL-5726,KRNL,Checking Linux loaded kernel modules,0.0,0.0467,NO
+KRNL-5728,KRNL,Checking Linux kernel config,0.0,0.0467,NO
+KRNL-5730,KRNL,Checking disk I/O kernel scheduler,1.0,0.0,NO
+KRNL-5788,KRNL,Checking availability new Linux kernel,0.0,0.0467,NO
+KRNL-5820,KRNL,Checking core dumps configuration,1.0,0.0,NO
+KRNL-5830,KRNL,Checking if system is running on the latest installed kernel,0.0,0.0467,NO
+PROC-3602,PROC,Checking /proc/meminfo for memory details,0.0,0.0467,NO
+PROC-3612,PROC,Check dead or zombie processes,0.0,0.0467,NO
+PROC-3614,PROC,Check heavy IO waiting based processes,1.0,0.0,NO
+PROC-3802,PROC,Check presence of prelink tooling,0.0,0.0467,NO
+AUTH-9204,AUTH,Check users with an UID of zero,0.0,0.0467,NO
+AUTH-9208,AUTH,Check non-unique accounts in passwd file,0.0,0.0467,NO
+AUTH-9216,AUTH,Check group and shadow group files,0.0,0.0467,NO
+AUTH-9222,AUTH,Check unique groups (IDs),0.0,0.0467,NO
+AUTH-9226,AUTH,Check unique group names,0.0,0.0467,NO
+AUTH-9228,AUTH,Check password file consistency with pwck,0.0,0.0467,NO
+AUTH-9229,AUTH,Check password hashing methods,0.0,0.0467,NO
+AUTH-9230,AUTH,Check password hashing rounds,0.0,0.0467,NO
+AUTH-9234,AUTH,Query user accounts,1.0,0.0,NO
+AUTH-9240,AUTH,Query NIS+ authentication support,0.0,0.0467,NO
+AUTH-9242,AUTH,Query NIS authentication support,0.0,0.0467,NO
+AUTH-9250,AUTH,Checking sudoers file,0.0,0.0467,NO
+AUTH-9252,AUTH,Check ownership and permissions for sudo configuration files,0.0,0.0467,NO
+AUTH-9262,AUTH,Checking presence password strength testing tools (PAM),0.0,0.0467,NO
+AUTH-9264,AUTH,Checking presence pam.conf,0.0,0.0467,NO
+AUTH-9266,AUTH,Checking presence pam.d files,1.0,0.0,NO
+AUTH-9268,AUTH,Checking presence pam.d files,0.0,0.0467,NO
+AUTH-9278,AUTH,Determine LDAP support in PAM files,0.0,0.0467,NO
+AUTH-9282,AUTH,Checking password protected account without expire date,0.0,0.0467,NO
+AUTH-9283,AUTH,Checking accounts without password,0.0,0.0467,NO
+AUTH-9284,AUTH,Check locked user accounts in /etc/passwd,1.0,0.0,NO
+AUTH-9286,AUTH,Checking user password aging,0.0,0.0467,NO
+AUTH-9288,AUTH,Checking for expired passwords,0.0,0.0467,NO
+AUTH-9308,AUTH,Check single user login configuration,0.0,0.0467,NO
+AUTH-9328,AUTH,Default umask values,0.0,0.0467,NO
+AUTH-9402,AUTH,Query LDAP authentication support,1.0,0.0,NO
+AUTH-9408,AUTH,Logging of failed login attempts,0.0,0.0467,NO
+KRB-1000,KRB,Check for Kerberos KDC tools,1.0,0.0,NO
+SHLL-6211,SHLL,Available and valid shells,0.0,0.0467,NO
+SHLL-6220,SHLL,Idle session killing tools or settings,0.0,0.0467,NO
+SHLL-6230,SHLL,Perform umask check for shell configurations,0.0,0.0467,NO
+FILE-6310,FILE,"Checking /tmp, /home and /var directory",1.0,0.0,NO
+FILE-6323,FILE,Checking EXT file systems,0.0,0.0467,NO
+FILE-6324,FILE,Checking XFS file systems,0.0,0.0467,NO
+FILE-6329,FILE,Checking FFS/UFS file systems,0.0,0.0467,NO
+FILE-6332,FILE,Checking swap partitions,0.0,0.0467,NO
+FILE-6336,FILE,Checking swap mount options,0.0,0.0467,NO
+FILE-6344,FILE,Checking proc mount options,0.0,0.0467,NO
+FILE-6354,FILE,Searching for old files in /tmp,0.0,0.0467,NO
+FILE-6362,FILE,Checking /tmp sticky bit,0.0,0.0467,NO
+FILE-6363,FILE,Checking /var/tmp sticky bit,0.0,0.0467,NO
+FILE-6368,FILE,Checking ACL support on root file system,0.0,0.0467,NO
+FILE-6372,FILE,Checking / mount options,0.0,0.0467,NO
+FILE-6374,FILE,Linux mount options,1.0,0.0,NO
+FILE-6376,FILE,Determine if /var/tmp is bound to /tmp,0.0,0.0467,NO
+FILE-6394,FILE,Determine level of swappiness.,0.0,0.0467,NO
+FILE-6430,FILE,Disable mounting of some filesystems,1.0,0.0,NO
+USB-2000,USB,Check USB authorizations,0.0,0.0467,NO
+USB-3000,USB,Check for presence of USBGuard,1.0,0.0,NO
+STRG-1920,STRG,Checking NFS daemon,0.0,0.0467,NO
+NAME-4016,NAME,Check /etc/resolv.conf default domain,0.0,0.0467,NO
+NAME-4018,NAME,Check /etc/resolv.conf search domains,0.0,0.0467,NO
+NAME-4020,NAME,Check non default options,0.0,0.0467,NO
+NAME-4028,NAME,Check domain name,0.0,0.0467,NO
+NAME-4032,NAME,Check nscd status,1.0,0.0,NO
+NAME-4034,NAME,Check Unbound status,0.0,0.0467,NO
+NAME-4202,NAME,Check BIND status,0.0,0.0467,NO
+NAME-4230,NAME,Check PowerDNS status,0.0,0.0467,NO
+NAME-4304,NAME,Check NIS ypbind status,0.0,0.0467,NO
+NAME-4402,NAME,Check duplicate line in /etc/hosts,0.0,0.0467,NO
+NAME-4404,NAME,Check /etc/hosts contains an entry for this server name,0.0,0.0467,NO
+NAME-4406,NAME,Check server hostname mapping,1.0,0.0,NO
+NAME-4408,NAME,Check localhost entry,1.0,0.0,NO
+PKGS-7345,PKGS,Querying dpkg,31.0,-0.3449,SI
+PKGS-7346,PKGS,Search unpurged packages on system,1.0,0.0,NO
+PKGS-7370,PKGS,Checking for debsums utility,0.0,0.0467,NO
+PKGS-7388,PKGS,Check security repository in apt sources.list file,0.0,0.0467,NO
+PKGS-7390,PKGS,Check Ubuntu database consistency,1.0,0.0,NO
+PKGS-7392,PKGS,Check for Debian/Ubuntu security updates,14.0,-0.356,SI
+PKGS-7394,PKGS,Check for Ubuntu updates,1.0,0.0,NO
+PKGS-7398,PKGS,Check for package audit tool,0.0,0.0467,NO
+PKGS-7410,PKGS,Count installed kernel packages,0.0,0.0467,NO
+PKGS-7420,PKGS,Detect toolkit to automatically download and apply upgrades,0.0,0.0467,NO
+NETW-2400,NETW,Hostname length and value check,0.0,0.0467,NO
+NETW-2600,NETW,Checking IPv6 configuration,2.0,-0.203,SI
+NETW-2704,NETW,Basic nameserver configuration tests,0.0,0.0467,NO
+NETW-2706,NETW,Check systemd-resolved and upstream DNSSEC status,0.0,0.0467,NO
+NETW-3004,NETW,Search for available network interfaces,0.0,0.0467,NO
+NETW-3006,NETW,Get network MAC addresses,1.0,0.0,NO
+NETW-3008,NETW,Get network IP addresses,0.0,0.0467,NO
+NETW-3012,NETW,Check listening ports,0.0,0.0467,NO
+NETW-3015,NETW,Checking promiscuous interfaces (Linux),0.0,0.0467,NO
+NETW-3030,NETW,Checking DHCP client status,0.0,0.0467,NO
+NETW-3032,NETW,Checking for ARP monitoring software,0.0,0.0467,NO
+NETW-3200,NETW,Determine available network protocols,1.0,0.0,NO
+PRNT-2304,PRNT,Check cupsd status,0.0,0.0467,NO
+PRNT-2306,PRNT,Check CUPSd configuration file,0.0,0.0467,NO
+PRNT-2307,PRNT,Check CUPSd configuration file permissions,0.0,0.0467,NO
+PRNT-2308,PRNT,Check CUPSd network configuration,0.0,0.0467,NO
+PRNT-2314,PRNT,Check lpd status,0.0,0.0467,NO
+MAIL-8802,MAIL,Check Exim status,1.0,0.0,NO
+MAIL-8814,MAIL,Check postfix process status,0.0,0.0467,NO
+MAIL-8820,MAIL,Postfix configuration scan,0.0,0.0467,NO
+MAIL-8838,MAIL,Check dovecot process,0.0,0.0467,NO
+MAIL-8860,MAIL,Check Qmail status,0.0,0.0467,NO
+MAIL-8880,MAIL,Check Sendmail status,0.0,0.0467,NO
+FIRE-4502,FIRE,Check iptables kernel module,1.0,0.0,NO
+FIRE-4524,FIRE,Check for CSF presence,0.0,0.0467,NO
+FIRE-4536,FIRE,Check nftables status,0.0,0.0467,NO
+FIRE-4538,FIRE,Check nftables basic configuration,0.0,0.0467,NO
+FIRE-4540,FIRE,Check for empty nftables configuration,0.0,0.0467,NO
+FIRE-4586,FIRE,Check firewall logging,0.0,0.0467,NO
+FIRE-4590,FIRE,Check firewall status,0.0,0.0467,NO
+FIRE-4594,FIRE,Check for APF presence,1.0,0.0,NO
+HTTP-6622,HTTP,Checking Apache presence,0.0,0.0467,NO
+HTTP-6702,HTTP,Check nginx process,1.0,0.0,NO
+SSH-7402,SSH,Check for running SSH daemon,0.0,0.0467,NO
+SNMP-3302,SNMP,Check for running SNMP daemon,0.0,0.0467,NO
+DBS-1804,DBS,Checking active MySQL process,1.0,0.0,NO
+DBS-1818,DBS,Check status of MongoDB server,0.0,0.0467,NO
+DBS-1820,DBS,Check for authorization in MongoDB,0.0,0.0467,NO
+DBS-1826,DBS,Checking active PostgreSQL processes,0.0,0.0467,NO
+DBS-1840,DBS,Checking active Oracle processes,0.0,0.0467,NO
+DBS-1860,DBS,Checking active DB2 instances,0.0,0.0467,NO
+DBS-1880,DBS,Check for active Redis server,1.0,0.0,NO
+LDAP-2219,LDAP,Check running OpenLDAP instance,0.0,0.0467,NO
+PHP-2211,PHP,Check php.ini presence,3.0,-0.2139,SI
+SQD-3602,SQD,Check for running Squid daemon,1.0,0.0,NO
+LOGG-2130,LOGG,Check for running syslog daemon,0.0,0.0467,NO
+LOGG-2132,LOGG,Check for running syslog-ng daemon,0.0,0.0467,NO
+LOGG-2136,LOGG,Check for running systemd journal daemon,0.0,0.0467,NO
+LOGG-2210,LOGG,Check for running metalog daemon,0.0,0.0467,NO
+LOGG-2230,LOGG,Check for running RSyslog daemon,1.0,0.0,NO
+LOGG-2240,LOGG,Check for running RFC 3195 compliant daemon,0.0,0.0467,NO
+LOGG-2138,LOGG,Checking kernel logger daemon on Linux,0.0,0.0467,NO
+LOGG-2142,LOGG,Checking minilog daemon,0.0,0.0467,NO
+LOGG-2144,LOGG,Checking wazuh-agent,0.0,0.0467,NO
+LOGG-2146,LOGG,Checking logrotate.conf and logrotate.d,0.0,0.0467,NO
+LOGG-2148,LOGG,Checking logrotated files,0.0,0.0467,NO
+LOGG-2150,LOGG,Checking directories in logrotate configuration,1.0,0.0,NO
+LOGG-2154,LOGG,Checking syslog configuration file,0.0,0.0467,NO
+LOGG-2170,LOGG,Checking log paths,0.0,0.0467,NO
+LOGG-2180,LOGG,Checking open log files,1.0,0.0,NO
+LOGG-2190,LOGG,Checking for deleted files in use,1.0,0.0,NO
+LOGG-2192,LOGG,Checking for open log files that are empty,0.0,0.0467,NO
+INSE-8000,INSE,Installed inetd package,1.0,0.0,NO
+INSE-8100,INSE,Check for installed xinetd daemon,0.0,0.0467,NO
+INSE-8102,INSE,Check for active xinet daemon,0.0,0.0467,NO
+INSE-8300,INSE,Check if rsh client is installed,0.0,0.0467,NO
+INSE-8304,INSE,Check if rsh server is installed,0.0,0.0467,NO
+INSE-8310,INSE,Check if telnet client is installed,0.0,0.0467,NO
+INSE-8322,INSE,Check if telnet server is installed,0.0,0.0467,NO
+INSE-8314,INSE,Check if NIS client is installed,1.0,0.0,NO
+INSE-8316,INSE,Check if NIS server is installed,0.0,0.0467,NO
+INSE-8318,INSE,Check if TFTP client is installed,0.0,0.0467,NO
+INSE-8320,INSE,Check if TFTP server is installed,0.0,0.0467,NO
+BANN-7124,BANN,Check issue banner file,0.0,0.0467,NO
+BANN-7126,BANN,Check issue banner file contents,0.0,0.0467,NO
+BANN-7128,BANN,Check issue.net banner file,0.0,0.0467,NO
+BANN-7130,BANN,Check issue.net banner file contents,1.0,0.0,NO
+SCHD-7702,SCHD,Check status of cron daemon,0.0,0.0467,NO
+SCHD-7704,SCHD,Check crontab/cronjobs,1.0,0.0,NO
+SCHD-7718,SCHD,Check at users,0.0,0.0467,NO
+ACCT-9622,ACCT,Check for available Linux accounting information,0.0,0.0467,NO
+ACCT-9626,ACCT,Check for sysstat accounting data,0.0,0.0467,NO
+ACCT-9628,ACCT,Check for auditd,1.0,0.0,NO
+ACCT-9636,ACCT,Check for Snoopy wrapper and logger,0.0,0.0467,NO
+TIME-3104,TIME,Check for running NTP daemon or client,1.0,0.0,NO
+TIME-3148,TIME,Check TZ variable,0.0,0.0467,NO
+TIME-3170,TIME,Check configuration files,1.0,0.0,NO
+CRYP-7902,CRYP,Check expire date of SSL certificates,31.0,-0.3449,SI
+CRYP-7930,CRYP,Determine if system uses LUKS block device encryption,0.0,0.0467,NO
+CRYP-8002,CRYP,Gather available kernel entropy,0.0,0.0467,NO
+CRYP-8004,CRYP,Presence of hardware random number generators,0.0,0.0467,NO
+CRYP-8005,CRYP,Presence of software pseudo random number generators,0.0,0.0467,NO
+CRYP-8006,CRYP,MemoryOverwriteRequest-bit set,1.0,0.0,NO
+CONT-8102,CONT,Checking Docker status and information,0.0,0.0467,NO
+MACF-6204,MACF,Check AppArmor presence,0.0,0.0467,NO
+MACF-6208,MACF,Check if AppArmor is enabled,1.0,0.0,NO
+MACF-6232,MACF,Check SELINUX presence,0.0,0.0467,NO
+MACF-6240,MACF,Check TOMOYO Linux presence,0.0,0.0467,NO
+RBAC-6272,RBAC,Check grsecurity presence,0.0,0.0467,NO
+MACF-6290,MACF,Check for implemented MAC framework,1.0,0.0,NO
+FINT-4310,FINT,AFICK availability,0.0,0.0467,NO
+FINT-4314,FINT,AIDE availability,0.0,0.0467,NO
+FINT-4318,FINT,Osiris availability,0.0,0.0467,NO
+FINT-4322,FINT,Samhain availability,0.0,0.0467,NO
+FINT-4326,FINT,Tripwire availability,0.0,0.0467,NO
+FINT-4328,FINT,OSSEC syscheck daemon running,0.0,0.0467,NO
+FINT-4330,FINT,mtree availability,0.0,0.0467,NO
+FINT-4338,FINT,osqueryd syscheck daemon running,1.0,0.0,NO
+FINT-4344,FINT,Wazuh syscheck daemon running,0.0,0.0467,NO
+FINT-4350,FINT,File integrity software installed,0.0,0.0467,NO
+TOOL-5002,TOOL,Checking for automation tools,0.0,0.0467,NO
+TOOL-5102,TOOL,Check for presence of Fail2ban,0.0,0.0467,NO
+TOOL-5120,TOOL,Check for presence of Snort,0.0,0.0467,NO
+TOOL-5122,TOOL,Check Snort configuration file,0.0,0.0467,NO
+TOOL-5130,TOOL,Check for active Suricata daemon,0.0,0.0467,NO
+TOOL-5126,TOOL,Check for active OSSEC daemon,1.0,0.0,NO
+TOOL-5128,TOOL,Check for active Wazuh daemon,0.0,0.0467,NO
+TOOL-5190,TOOL,Check presence of IDS/IPS tool,0.0,0.0467,NO
+MALW-3274,MALW,Check for McAfee VirusScan Command Line,0.0,0.0467,NO
+MALW-3275,MALW,Check for chkrootkit,0.0,0.0467,NO
+MALW-3276,MALW,Check for Rootkit Hunter,0.0,0.0467,NO
+MALW-3278,MALW,Check for LMD,0.0,0.0467,NO
+MALW-3280,MALW,Check if anti-virus tool is installed,1.0,0.0,NO
+MALW-3282,MALW,Check for clamscan,0.0,0.0467,NO
+MALW-3284,MALW,Check for clamd,1.0,0.0,NO
+MALW-3291,MALW,Check for mdatp,0.0,0.0467,NO
+MALW-3290,MALW,Presence of for malware detection,0.0,0.0467,NO
+FILE-7524,FILE,Perform file permissions check,1.0,0.0,NO
+HOME-9302,HOME,Create list with home directories,0.0,0.0467,NO
+HOME-9304,HOME,Check if users' home directories permissions are 750 or more restrictive,1.0,0.0,NO
+HOME-9306,HOME,Check if users own their home directories,0.0,0.0467,NO
+HOME-9310,HOME,Checking for suspicious shell history files,0.0,0.0467,NO
+HOME-9350,HOME,Collecting information from home directories,0.0,0.0467,NO
+KRNL-6000,KRNL,Check sysctl key pairs in scan profile,4.0,-0.2811,SI
+HRDN-7220,HRDN,Check if one or more compilers are installed,0.0,0.0467,NO
+HRDN-7222,HRDN,Check compiler permissions,0.0,0.0467,NO
+HRDN-7230,HRDN,Check for malware scanner,0.0,0.0467,NO
